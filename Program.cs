@@ -15,9 +15,9 @@ namespace Calculator
 
 			while (!endApp)
 			{
-				string numInput1 = "";
-				string numInput2 = "";
-				double res = 0;
+				string numInput1 ;
+				string numInput2;
+				double res;
 				double cleanNum1; double cleanNum2;
 
 				Console.WriteLine("Type a number, and then press Enter");
