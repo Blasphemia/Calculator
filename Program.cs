@@ -7,13 +7,15 @@ namespace CalculatorProgram
 {
 	class Program
 	{
+
+	
 		static void Main(string[] args)
 		{
 
 			bool endApp = false;
 			Console.WriteLine("Console Calculator in C#\r");
 			Console.WriteLine("------------------------\n");
-
+			Calculator calculator = new Calculator();
 			while (!endApp)
 			{
 				string numInput1 ;
@@ -110,7 +112,7 @@ namespace CalculatorProgram
 			return;
 		}
 
-
+		
 	}
 
 
