@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
+using Newtonsoft.Json;
 
 
 namespace CalculatorProgram
@@ -108,7 +109,7 @@ namespace CalculatorProgram
 			}
 
 
-
+			calculator.Finish();
 			return;
 		}
 
